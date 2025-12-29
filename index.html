@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kururu - Eco-Tourism in Colombia's Amazon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/i18next@21.6.16/i18next.min.js"></script>
+</head>
+<body>
+    <header id="hero">
+        <div class="language-switcher">
+            <select id="language-select">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="pt">Português</option>
+            </select>
+        </div>
+        <div class="hero-overlay">
+            <h1 data-i18n="hero_title">Discover Colombia's Amazon with Kururu</h1>
+            <p data-i18n="hero_subtitle">Sustainable eco-tourism led by Daniel Bayona</p>
+            <a href="#contact" class="cta-button" data-i18n="hero_cta">Book Your Kururu Adventure</a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 data-i18n="about_title">About Kururu</h2>
+                    <p data-i18n="about_text">Kururu is an eco-tourism business founded by Daniel Bayona, dedicated to showcasing the pristine beauty of Colombia's Amazon rainforest while promoting conservation and sustainable travel. Our tours are designed to provide authentic experiences that respect local communities and the environment.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop" alt="Amazon Village">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tours">
+        <div class="container">
+            <h2 data-i18n="tours_title">Our Tour Offerings</h2>
+            <div class="tour-grid">
+                <div class="tour-card">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=250&fit=crop" alt="Jungle Trek">
+                    <h3 data-i18n="jungle_title">Jungle Trek & Wildlife Viewing</h3>
+                    <p data-i18n="jungle_desc">Explore the canopy and spot exotic wildlife in guided treks.</p>
+                    <p class="price" data-i18n="jungle_price">From $150/person</p>
+                    <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
+                </div>
+                <div class="tour-card">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=250&fit=crop" alt="River Expedition">
+                    <h3 data-i18n="river_title">River Expedition</h3>
+                    <p data-i18n="river_desc">Navigate the Amazon rivers and discover hidden waterways.</p>
+                    <p class="price" data-i18n="river_price">From $200/person</p>
+                    <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
+                </div>
+                <div class="tour-card">
+                    <img src="https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=400&h=250&fit=crop" alt="Birdwatching">
+                    <h3 data-i18n="birdwatching_title">Birdwatching Adventure</h3>
+                    <p data-i18n="birdwatching_desc">Observe colorful birds in their natural habitat.</p>
+                    <p class="price" data-i18n="birdwatching_price">From $120/person</p>
+                    <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
+                </div>
+                <div class="tour-card">
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=250&fit=crop" alt="Community Visit">
+                    <h3 data-i18n="community_title">Indigenous Community Visit</h3>
+                    <p data-i18n="community_desc">Immerse yourself in local culture and traditions.</p>
+                    <p class="price" data-i18n="community_price">From $100/person</p>
+                    <a href="#contact" class="learn-more" data-i18n="learn_more">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-choose">
+        <div class="container">
+            <h2 data-i18n="why_title">Why Choose Kururu?</h2>
+            <div class="benefits">
+                <div class="benefit">
+                    <img src="https://via.placeholder.com/50x50/4CAF50/FFFFFF?text=G" alt="Guide Icon">
+                    <h3 data-i18n="guide_title">Expert Local Guides</h3>
+                    <p data-i18n="guide_desc">Led by Daniel Bayona and his team of experienced guides.</p>
+                </div>
+                <div class="benefit">
+                    <img src="https://via.placeholder.com/50x50/4CAF50/FFFFFF?text=E" alt="Eco Icon">
+                    <h3 data-i18n="carbon_title">Carbon-Neutral Travel</h3>
+                    <p data-i18n="carbon_desc">All tours are designed with minimal environmental impact.</p>
+                </div>
+                <div class="benefit">
+                    <img src="https://via.placeholder.com/50x50/4CAF50/FFFFFF?text=S" alt="Small Group Icon">
+                    <h3 data-i18n="small_title">Small Groups</h3>
+                    <p data-i18n="small_desc">Intimate experiences with groups of 6-12 people.</p>
+                </div>
+            </div>
+            <div class="testimonials">
+                <blockquote data-i18n="testimonial1">"Kururu's team, led by Daniel, provided an unforgettable experience. Highly recommend!" - Maria S., USA</blockquote>
+                <blockquote data-i18n="testimonial2">"The eco-tourism focus made our trip meaningful and sustainable." - John D., Canada</blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2 data-i18n="gallery_title">Gallery & Testimonials</h2>
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=300&h=200&fit=crop" alt="Amazon Jungle">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=300&h=200&fit=crop" alt="Amazon River">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop" alt="Amazon Village">
+            </div>
+            <div class="testimonial-slider">
+                <p data-i18n="testimonial3">"Daniel Bayona's passion for the Amazon shines through every tour." - Sarah L., UK</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 data-i18n="contact_title">Contact Us</h2>
+            <form action="#" method="post">
+                <input type="text" name="name" data-i18n="[placeholder]name_placeholder" placeholder="Your Name" required>
+                <input type="email" name="email" data-i18n="[placeholder]email_placeholder" placeholder="Your Email" required>
+                <input type="tel" name="phone" data-i18n="[placeholder]phone_placeholder" placeholder="Your Phone">
+                <select name="tour">
+                    <option value="" data-i18n="tour_select">Select a Tour</option>
+                    <option value="jungle" data-i18n="jungle_option">Jungle Trek</option>
+                    <option value="river" data-i18n="river_option">River Expedition</option>
+                    <option value="birdwatching" data-i18n="birdwatching_option">Birdwatching</option>
+                    <option value="community" data-i18n="community_option">Community Visit</option>
+                </select>
+                <textarea name="message" data-i18n="[placeholder]message_placeholder" placeholder="Your Message"></textarea>
+                <button type="submit" data-i18n="submit">Send Inquiry</button>
+            </form>
+            <div class="newsletter">
+                <input type="email" data-i18n="[placeholder]newsletter_placeholder" placeholder="Subscribe for deals">
+                <button data-i18n="newsletter_button">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p data-i18n="footer_text">&copy; 2025 Kururu. Protecting the Amazon, One Adventure at a Time.</p>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
